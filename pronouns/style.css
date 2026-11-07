@@ -1,0 +1,29 @@
+/* Pronoun settings UI */
+.pronoun-settings-container {
+    margin: 10px 0;
+}
+
+.pronoun-preset-buttons {
+    flex-wrap: wrap;
+}
+
+.pronoun-preset-buttons .menu_button {
+    min-width: 90px;
+    padding: 3px 4px;
+    text-align: center;
+    font-size: calc(var(--mainFontSize) * 0.8);
+}
+
+#pronouns_open_replacer {
+    margin-left: 10px;
+    width: auto;
+}
+
+.popup .pronoun-replacer-table {
+    margin: 10px auto;
+    text-align: left;
+    border-collapse: collapse;
+}
+.popup .pronoun-replacer-table td {
+    padding: 0px 5px;
+}
