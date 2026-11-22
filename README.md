@@ -96,3 +96,10 @@ the theme picker live in the same toolbar (under More on mobile).
 ## Credits
 
 Author: **aceenvw**. Licensed AGPL-3.0-or-later.
+
+
+## 1.4.0-combined — upstream Persona Manager 1.3.0 + Pronouns
+
+Updated from [aceeenvw/persona-manager](https://github.com/aceeenvw/persona-manager) at upstream commit `182a421558fd`, retaining the merged SillyTavern Pronouns feature set and project-local extensions. This combines the upstream avatar-cropping workflow, mobile editor refinements, refreshed layout and dialogs with the existing five pronoun fields, presets, inactive-persona editing, duplication/copy, macros, slash commands, and text replacer.
+
+This was three-way merged against upstream Persona Manager 1.2.0 (commit `940b69b07328`). The existing `pronouns/`, `LICENSE-PRONOUNS`, and `tests/` directories are preserved. To avoid conflicting handlers, disable the separate standalone Pronouns extension when using the combined build. The combined extension keeps its prior auto-update preference; update it in SillyTavern's extension manager when needed.
